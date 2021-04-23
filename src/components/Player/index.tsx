@@ -25,7 +25,7 @@ export function Player() {
     } else {
       audioRef.current.pause();
     }
-  }, []);
+  }, [isPlaying]);
 
   return (
     <div className={styles.playerContainer}>
